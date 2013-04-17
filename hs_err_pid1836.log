@@ -1,0 +1,106 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=1836, tid=4980
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_13-b20
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.7-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002a2d800):  JavaThread "Unknown thread" [_thread_in_vm, id=4980, stack(0x0000000002830000,0x0000000002930000)]
+
+Stack: [0x0000000002830000,0x0000000002930000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002a2d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4980, stack(0x0000000002830000,0x0000000002930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.075 loading class 0x0000000002a431c0
+Event: 0.076 loading class 0x0000000002a431c0 done
+Event: 0.076 loading class 0x0000000002a438e0
+Event: 0.076 loading class 0x0000000002a43670
+Event: 0.077 loading class 0x0000000002a43670 done
+Event: 0.077 loading class 0x0000000002a807f0
+Event: 0.077 loading class 0x0000000002a807f0 done
+Event: 0.077 loading class 0x0000000002a438e0 done
+Event: 0.077 loading class 0x0000000002a435b0
+Event: 0.077 loading class 0x0000000002a435b0 done
+
+
+Dynamic libraries:
+0x000007f6a3ff0000 - 0x000007f6a4023000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x000007fd6aaa0000 - 0x000007fd6ac5e000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x000007fd681c0000 - 0x000007fd682f6000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x000007fd67af0000 - 0x000007fd67be3000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x000007fd6a3e0000 - 0x000007fd6a4be000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x000007fd67f10000 - 0x000007fd6805c000 	C:\WINDOWS\system32\USER32.dll
+0x000007fd673d0000 - 0x000007fd67639000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16384_none_418c2a697189c07f\COMCTL32.dll
+0x000007fd68060000 - 0x000007fd68105000 	C:\WINDOWS\system32\msvcrt.dll
+0x000007fd68a00000 - 0x000007fd68a48000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x000007fd6a960000 - 0x000007fd6aaa0000 	C:\WINDOWS\system32\RPCRT4.dll
+0x000007fd68310000 - 0x000007fd68450000 	C:\WINDOWS\system32\GDI32.dll
+0x000007fd6a4d0000 - 0x000007fd6a509000 	C:\WINDOWS\system32\IMM32.DLL
+0x000007fd68450000 - 0x000007fd68565000 	C:\WINDOWS\system32\MSCTF.dll
+0x0000000069180000 - 0x0000000069251000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000068a60000 - 0x000000006917f000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fd62000000 - 0x000007fd62009000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x000007fd5e500000 - 0x000007fd5e520000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x000007fd68590000 - 0x000007fd68597000 	C:\WINDOWS\system32\PSAPI.DLL
+0x000007fd689a0000 - 0x000007fd689f8000 	C:\WINDOWS\system32\WS2_32.dll
+0x000007fd5e4c0000 - 0x000007fd5e4f2000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x000007fd6a510000 - 0x000007fd6a519000 	C:\WINDOWS\system32\NSI.dll
+0x0000000068a50000 - 0x0000000068a5f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000068a20000 - 0x0000000068a48000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000068a00000 - 0x0000000068a15000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\leJOS NXJ\lib\nxt\classes.jar 
+java_command: lab3.Main
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\PharosSystems\Core;C:\VXIPNP\WinNT\Bin;C:\Program Files (x86)\leJOS NXJ\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Users\skl407\Downloads\eclipse-SDK-4.2.1-win32\eclipse;
+USERNAME=skl407
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 1953452k(433644k free), swap 4314348k(1827048k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.7-b01) for windows-amd64 JRE (1.7.0_13-b20), built on Jan 30 2013 10:10:00 by "java_re" with unknown MS VC++:1600
+
+time: Wed Mar 27 22:23:25 2013
+elapsed time: 0 seconds
+
